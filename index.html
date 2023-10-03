@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="cz">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            margin: 0;
+            font-family: sans-serif;
+            background-image: url("page.png");
+        }
+        header {
+            background-image: url("header.jpg");
+            height: 100px;
+        }
+        .nahore {
+            display: flex;
+            width: 1000px;
+            margin: auto;
+        }
+        .logo {
+            width: 30%;
+           
+        }
+        .textlogo {
+            width: 70%;
+            
+        }
+        
+
+        header{
+            color: black;
+            background-color: yellow;
+        }
+
+        .container {
+            width: 1000px;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: flex-start;
+            margin: auto;
+            background-color: white;
+            box-shadow: 5px 0 5px rgb(196, 196, 196);
+            box-shadow: -5px 0 5px rgb(196, 196, 196);
+        }
+        .levy,
+        .pravy {
+            background-color: rgb(237, 237, 237);
+            width: 48%;
+           
+            padding: 1em;
+            margin: 0 1%;
+        }
+
+        .novinky {
+            background-color: silver;
+            color:green;
+            padding:0.5em;
+        }
+        .aktualne {
+            background-color: rgb(0, 0, 0);
+            color: white;
+            padding:0.5em;           
+        }
+        .aktualne_text{
+            line-height: 2em;
+            background-color: rgb(118, 207, 133);
+        }
+
+        ul{
+            color: red;
+        }
+
+
+
+
+    </style>
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+
+
+
+        <div class="nahore">
+            <div class="logo">
+                
+            </div>
+            <div class="textlogo">
+                <h1>Stránka na procvičení HTML + CSS</h1>
+                
+            </div>
+            
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        
+        <div class="levy">
+           <center> <h3 class="novinky">HTML + CSS</h3></center>
+            
+ 
+           <ul>
+            
+            <li>Bobo</li>
+            <li>Bobo</li>
+            <li>Bobo</li>
+            <li>Bobo</li>
+
+
+
+           </ul>
+
+
+
+
+
+        </div>
+        <div class="pravy">
+            <h3 class="aktualne"></h3>
+            <ul>
+                <li>Bobo</li>
+                <li>Bobo</li>
+                <li>Bobo</li>
+                <li>Bobo</li>
+    
+    
+    
+    
+               </ul>       
+        </div>
+        
+    </div>
+</body>
+</html>
